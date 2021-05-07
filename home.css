@@ -8,31 +8,45 @@
 }
 
 /*Menu-busca*/
-.tr-branco{
+.tr-branco {
     width: 70px;
     height: 70px;
     max-width: auto;
     max-height: auto;
     margin-inline-start: -12px;
 }
-.search{
+
+.search {
     margin-top: 15px;
-    color: #fff;
     margin-inline-start: -12px;
 }
-.tr-preto{
-    width: 70px;
-    height: 40px;
-    max-width: auto;
-    max-height: auto;
-    margin-top: 15px;
+
+.search:focus {
+    outline: none;
+    box-shadow: none !important;
 }
-.bt-lupa{
+
+a .bt-lupa {
     width: 100%;
     height: 40px;
     max-width: auto;
     max-height: auto;
     margin-top: 15px;
-    margin-inline-start: -160px;
+    border-radius: 2px 2px;
+    margin-inline-start: -3px;
 }
-/**/
+
+/*Atendimento e Minha Conta*/
+.icons-header {
+    width: 50%;
+    height: 20px;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 20px;
+}
+
+texto {
+ 
+    color: #fff;
+    font-size: 14px;
+}
