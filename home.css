@@ -1,0 +1,38 @@
+/*Menu-logo*/
+.logo {
+    width: 100%;
+    height: 40px;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 15px;
+}
+
+/*Menu-busca*/
+.tr-branco{
+    width: 70px;
+    height: 70px;
+    max-width: auto;
+    max-height: auto;
+    margin-inline-start: -12px;
+}
+.search{
+    margin-top: 15px;
+    color: #fff;
+    margin-inline-start: -12px;
+    
+}
+.tr-preto{
+    width: 70px;
+    height: 40px;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 15px;
+}
+.bt-lupa{
+    width: 100%;
+    height: 40px;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 15px;
+    margin-inline-start: -160px;
+}
