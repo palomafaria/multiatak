@@ -42,11 +42,18 @@ a .bt-lupa {
     height: 20px;
     max-width: auto;
     max-height: auto;
-    margin-top: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    margin-inline-start: 15px;
+}
+.link{
+    text-decoration: none;
+    color: honeydew;
+    text-align: center;
+    padding-top: 5px;
+    margin-inline-start: 3px;
+}
+.link:hover{
+    color: honeydew;
 }
 
-texto {
- 
-    color: #fff;
-    font-size: 14px;
-}
