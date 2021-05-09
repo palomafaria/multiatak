@@ -14,409 +14,586 @@
   <title>Multiatak</title>
 </head>
 
-<body style="background-color: #eee;>
+<body style="background-color: #eee;">
   <!--Logo Multiatak-->
-  <div class=" container-fluid p-md-0">
-  <div class="row">
-
-    <!--Nome da loja-->
-    <div class="col-sm-3" style="background-color: #fff; text-align: center;">
-      <a href="#">
-        <img class="logo" src="assets/icones_home/logo/logo-header.svg">
-      </a>
-    </div>
-
-    <!--Busca de Produtos-->
-    <div class="col-1 d-none d-sm-block " style="background-color: #1b1b1b;">
-      <img class="tr-branco" src="assets/icones_home/icones_header/triangulo-branco.svg">
-    </div>
-    <div class="col-5 d-none d-md-block " style="background-color:#1b1b1b;">
-      <form class="d-flex">
-        <input type="text" class="form-control sm-2 text-white bg-dark border-dark search"
-          placeholder="O que você está buscando?">
-        <a href="#">
-          <img class="bt-lupa" src="assets/icones_home/icones/cart-desktop-btn.png">
-        </a>
-      </form>
-    </div>
-
-    <!--Atendimento -->
-    <div class="col-3" style="background-color: #1b1b1b;">
-      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-        <li class="nav-item">
-          <a class="nav-item p2" href="#">
-            <img class="icons-header" src="assets/icones_home/icones_header/atendimento.svg">
-          </a>
-          <div>
-            <a class="link" href="#">Atendimento</a>
-          </div>
-        </li>
-
-        <!-- Minha conta-->
-        <li class="nav-item">
-          <a class="nav-item p2" href="#">
-            <img class="icons-header" src="assets/icones_home/icones_header/minha-conta.svg">
-          </a>
-          <div>
-            <a class="link" href="#">Minha Conta</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!--2 Menu-->
-  <div class="container-fluid ">
-    <div class="row">
-      <!--Som e Vídeo-->
-      <div class="col-sm-1" style="background-color: #141414; text-align: center;">
-        <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
-          <img src="assets/icones_home/icones_categorias/som-e-video-cinza.svg" width="30" height="30"
-            class="d-inline-block align-top options" alt="Som e Vídeo"
-            onmouseover="this.src='./assets/icones_home/icones_categorias/som-e-video-vermelho.svg'"
-            onmouseout="this.src='./assets/icones_home/icones_categorias/som-e-video-cinza.svg'">
-        </a>
-        <div style="text-align: center; color: #fff; font-size: 12px;">
-          <p>Som e vídeo</p>
-        </div>
-      </div>
-
-      <!--Farois Lanternas e Iluminações-->
-      <div class="col-sm-1" style="background-color: #141414; text-align: center;">
-        <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
-          <img src="assets/icones_home/icones_categorias/farois-lanternas-cinza.svg" width="30" height="30"
-            class="d-inline-block align-top options" alt="Farois, lanternas e iluminações"
-            onmouseover="this.src='./assets/icones_home/icones_categorias/farois-lanternas-vermelho.svg'"
-            onmouseout="this.src='./assets/icones_home/icones_categorias/farois-lanternas-cinza.svg'">
-        </a>
-        <div style="text-align: center; color: #fff; font-size: 12px;">
-          <p>Farois, lanternas e iluminação</p>
-        </div>
-      </div>
-
-      <!--Acessórios internos-->
-      <div class="col-sm-1" style="background-color: #141414; text-align: center;">
-        <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
-          <img src="assets/icones_home/icones_categorias/acessorios-internos-cinza.svg" width="30" height="30"
-            class="d-inline-block align-top options" alt="Acessórios internos"
-            onmouseover="this.src='./assets/icones_home/icones_categorias/acessorios-internos-vermelho.svg'"
-            onmouseout="this.src='./assets/icones_home/icones_categorias/acessorios-internos-cinza.svg'">
-        </a>
-        <div style="text-align: center; color: #fff; font-size: 12px;">
-          <p>Acessórios internos</p>
-        </div>
-      </div>
-
-      <!--Acessórios Externos-->
-      <div class="col-sm-1" style="background-color: #141414; text-align: center;">
-        <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
-          <img src="assets/icones_home/icones_categorias/acessorios-externos-cinza.svg" width="30" height="30"
-            class="d-inline-block align-top options" alt="Acessórios externos"
-            onmouseover="this.src='./assets/icones_home/icones_categorias/acessorios-externos-vermelho.svg'"
-            onmouseout="this.src='./assets/icones_home/icones_categorias/acessorios-externos-cinza.svg'">
-        </a>
-        <div style="text-align: center; color: #fff; font-size: 12px;">
-          <p>Acessórios externos</p>
-        </div>
-      </div>
-
-      <!--Vestuários-->
-      <div class="col-sm-1" style="background-color: #141414; text-align: center;">
-        <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
-          <img src="assets/icones_home/icones_categorias/vestuarios-cinza.svg" width="30" height="30"
-            class="d-inline-block align-top options" alt="Vestuários"
-            onmouseover="this.src='./assets/icones_home/icones_categorias/vestuarios-vermelho.svg'"
-            onmouseout="this.src='./assets/icones_home/icones_categorias/vestuarios-cinza.svg'">
-        </a>
-        <div style="text-align: center; color: #fff; font-size: 12px;">
-          <p>Vestuários</p>
-        </div>
-      </div>
-
-      <!--Infantil-->
-      <div class="col-sm-1" style="background-color: #141414; text-align: center;">
-        <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
-          <img src="assets/icones_home/icones_categorias/infantil-cinza.svg" width="40" height="30"
-            class="d-inline-block align-top options" alt="Infantil"
-            onmouseover="this.src='./assets/icones_home/icones_categorias/infantil-vermelho.svg'"
-            onmouseout="this.src='./assets/icones_home/icones_categorias/infantil-cinza.svg'">
-        </a>
-        <div style="text-align: center; color: #fff; font-size: 12px;">
-          <p>Infantil</p>
-        </div>
-      </div>
-
-      <!--Espaço-->
-      <div class="col-sm-1" style="background-color: #141414; text-align: center;"></div>
-
-      <!--Carrinho-->
-      <div class="col-sm-2" style="background-color: #141414; text-align: center;">
-        <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
-          <img src="assets/icones_home/icones_header/carrinho.svg" class="d-inline-block align-top carrinho"
-            alt="Carrinho">
-        </a>
-      </div>
-
-      <!--Triangulo 2-->
-      <div class="col-1 d-none d-sm-block " style="background-color:#fff;">
-        <img class="tr-branco2" src="assets/triangulo-dir-banner.svg">
-      </div>
-
-      <!--Catrgories-->
-      <div class="col-sm-2" style="background-color: #fff; text-align: center;">
-        <div class="dropdown categorias">
-          <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Mais Categorias
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Modal-->
-  <div style="background-color: #fff;">
-    <div id="carouselExampleSlidesOnly" class="carousel slide p-md-0" data-ride="carousel" style="background: black;">
-      <div class="carousel-inner banner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="assets/banners/banner-principal-desk.jpg" alt="Primeiro Slide">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Força de venda-->
-  <div class="container px-5" style="text-align: center;">
-
-    <table class="table table-bordered px-5 venda">
-      <thead>
-        <tr>
-          <td class="col">
-            <img src="assets/icones_home/icones_forca_de_venda/entrega.svg" width="30" height="30"
-              class="d-inline-block align-top forca-venda">
-            Entregamos para todo o país
-          </td>
-          <td class="w-15">
-            <img src="assets/icones_home/icones_forca_de_venda/parcelamento.svg" width="30" height="30"
-              class="d-inline-block align-top forca-venda">
-            Parcelamos no cartão
-          </td>
-          <td class="w-15">
-            <img src="assets/icones_home/icones_forca_de_venda/seguranca.svg" width="30" height="30"
-              class="d-inline-block align-top forca-venda">
-            Site seguro e confiável
-          </td>
-          <td class="w-15">
-            <img src="assets/icones_home/icones_forca_de_venda/troca.svg" width="30" height="30"
-              class="d-inline-block align-top forca-venda">
-            Primeira troca grátis
-          </td>
-        </tr>
-      </thead>
-      <tbody>
-    </table>
-  </div>
-
-  <!--Cardes Anuncio-->
-  <div class="container px-5" style="text-align: center;">
-    <div class="card-group">
-      <div class="card">
-        <img src="assets/banners/mini-banner-esq.jpg" class="card-img-top" alt="...">
-      </div>
-      <div class="card">
-        <img src="assets/banners/mini-banner-dir.jpg" class="card-img-top" alt="...">
-      </div>
-    </div>
-  </div>
-
-  <br>
-  <!--Mais vendidos-->
   <div class="container-fluid p-md-0">
     <div class="row">
 
-      <!--Borda-->
-      <div class="col-1 d-none d-sm-block " style="background-color: #eee;"></div>
-
-      <div class="col-2 d-none d-sm-block " style="background-color: #fff;">
-        <img class="enfeite" src="assets/icones_home/enfeite-mais-vendidos-esq.svg">
+      <!--Nome da loja-->
+      <div class="col-sm-3" style="background-color: #fff; text-align: center;">
+        <a href="#">
+          <img class="logo" src="assets/icones_home/logo/logo-header.svg">
+        </a>
       </div>
 
-      <!--Titulo - Mais vendidos-->
-      <div class="col-6 d-none d-sm-block " style="background-color: #fff;">
-        <h4 style="text-align: center; margin-top: 20px;">Mais Vendidos</h4>
+      <!--Busca de Produtos-->
+      <div class="col-1 d-none d-md-block " style="background-color: #1b1b1b;">
+        <img class="tr-branco" src="assets/icones_home/icones_header/triangulo-branco.svg">
+      </div>
+      <div class="col-5 d-none d-md-block " style="background-color:#1b1b1b;">
+        <form class="d-flex">
+          <input type="text" class="form-control sm-2 text-white bg-dark border-dark search"
+            placeholder="O que você está buscando?">
+          <a href="#">
+            <img class="bt-lupa" src="assets/icones_home/icones/cart-desktop-btn.png">
+          </a>
+        </form>
       </div>
 
-      <!--Borda 2-->
-      <div class="col-2 d-none d-sm-block " style="background-color: #fff;">
-        <img class="enfeite2" src="assets/icones_home/enfeite-mais-vendidos-dir.svg">
-      </div>
-      <div class="col-1 d-none d-sm-block " style="background-color: #eee;"></div>
+      <!--Atendimento -->
+      <div class="col-3 d-none d-sm-block" style="background-color: #1b1b1b;">
+        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+          <li class="nav-item">
+            <a class="nav-item p2" href="#">
+              <img class="icons-header" src="assets/icones_home/icones_header/atendimento.svg">
+            </a>
+            <div>
+              <a class="link" href="#">Atendimento</a>
+            </div>
+          </li>
 
+          <!-- Minha conta-->
+          <li class="nav-item">
+            <a class="nav-item p2" href="#">
+              <img class="icons-header" src="assets/icones_home/icones_header/minha-conta.svg">
+            </a>
+            <div>
+              <a class="link" href="#">Minha Conta</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-    <br>
 
-    <!--Produtos-->
-    <div class="container px-5">
+    <!--O que você está buscando responsivo-->
+    <div class="container-fluid p-md-0">
+      <div class="row">
+        <div class="col-12 d-sm-none " style="background-color:#1b1b1b;">
+          <form class="d-flex">
+            <input type="text" class="form-control sm-2 text-white bg-dark border-dark search"
+              placeholder="O que você está buscando?">
+            <a href="#">
+              <img class="bt-lupa" src="assets/icones_home/icones/cart-desktop-btn.png">
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--2 Menu-->
+    <div class="container-fluid d-none d-xl-block">
+      <div class="row">
+        <!--Som e Vídeo-->
+        <div class="col-sm-1" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/som-e-video-cinza.svg" width="30" height="30"
+              class="d-inline-block align-top options" alt="Som e Vídeo"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/som-e-video-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/som-e-video-cinza.svg'">
+          </a>
+          <div style="text-align: center; color: #fff; font-size: 12px;">
+            <p>Som e vídeo</p>
+          </div>
+        </div>
+
+        <!--Farois Lanternas e Iluminações-->
+        <div class="col-sm-1" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/farois-lanternas-cinza.svg" width="30" height="30"
+              class="d-inline-block align-top options" alt="Farois, lanternas e iluminações"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/farois-lanternas-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/farois-lanternas-cinza.svg'">
+          </a>
+          <div style="text-align: center; color: #fff; font-size: 12px;">
+            <p>Farois, lanternas e iluminação</p>
+          </div>
+        </div>
+
+        <!--Acessórios internos-->
+        <div class="col-sm-1" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/acessorios-internos-cinza.svg" width="30" height="30"
+              class="d-inline-block align-top options" alt="Acessórios internos"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/acessorios-internos-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/acessorios-internos-cinza.svg'">
+          </a>
+          <div style="text-align: center; color: #fff; font-size: 12px;">
+            <p>Acessórios internos</p>
+          </div>
+        </div>
+
+        <!--Acessórios Externos-->
+        <div class="col-sm-1" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/acessorios-externos-cinza.svg" width="30" height="30"
+              class="d-inline-block align-top options" alt="Acessórios externos"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/acessorios-externos-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/acessorios-externos-cinza.svg'">
+          </a>
+          <div style="text-align: center; color: #fff; font-size: 12px;">
+            <p>Acessórios externos</p>
+          </div>
+        </div>
+
+        <!--Vestuários-->
+        <div class="col-sm-1" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/vestuarios-cinza.svg" width="30" height="30"
+              class="d-inline-block align-top options" alt="Vestuários"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/vestuarios-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/vestuarios-cinza.svg'">
+          </a>
+          <div style="text-align: center; color: #fff; font-size: 12px;">
+            <p>Vestuários</p>
+          </div>
+        </div>
+
+        <!--Infantil-->
+        <div class="col-sm-1" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/infantil-cinza.svg" width="40" height="30"
+              class="d-inline-block align-top options" alt="Infantil"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/infantil-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/infantil-cinza.svg'">
+          </a>
+          <div style="text-align: center; color: #fff; font-size: 12px;">
+            <p>Infantil</p>
+          </div>
+        </div>
+
+        <!--Espaço-->
+        <div class="col-sm-1" style="background-color: #141414; text-align: center;"></div>
+
+        <!--Carrinho-->
+        <div class="col-sm-2" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_header/carrinho.svg" class="d-inline-block align-top carrinho"
+              alt="Carrinho">
+          </a>
+        </div>
+
+        <!--Triangulo 2-->
+        <div class="col-1 d-none d-sm-block " style="background-color:#fff;">
+          <img class="tr-branco2" src="assets/triangulo-dir-banner.svg">
+        </div>
+
+        <!--Catrgories-->
+        <div class="col-sm-2" style="background-color: #fff; text-align: center;">
+          <div class="dropdown categorias">
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Mais Categorias
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Menu Responsivo-->
+    <div class="container-fluid text-white d-xl-none d-none d-sm-block p-md-0"
+      style="background-color: #141414; cursor: pointer;">
+      <div class="row text-center">
+        <div class="col-2">Som e vídeo</div>
+        <div class="col-2">Faróis lanternas e iluminação</div>
+        <div class="col-2">Acessórios Externos</div>
+        <div class="col-2">Acessórios Internos</div>
+        <div class="col-1">Vestiário</div>
+        <div class="col-1">Infantil</div>
+        <div class="col-2">Carrinho</div>
+      </div>
+    </div>
+    <!--Menu Celular-->
+    <div class="container-fluid d-sm-none p-md-0">
+      <div class="row">
+        <!--Som e Vídeo-->
+        <div class="col-2" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/som-e-video-cinza.svg" width="20" height="30"
+              class="d-inline-block align-top options" alt="Som e Vídeo"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/som-e-video-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/som-e-video-cinza.svg'">
+          </a>
+        </div>
+
+        <!--Farois Lanternas e Iluminações-->
+        <div class="col-2" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/farois-lanternas-cinza.svg" width="20" height="30"
+              class="d-inline-block align-top options" alt="Farois, lanternas e iluminações"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/farois-lanternas-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/farois-lanternas-cinza.svg'">
+          </a>
+        </div>
+
+        <!--Acessórios internos-->
+        <div class="col-2" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/acessorios-internos-cinza.svg" width="20" height="30"
+              class="d-inline-block align-top options" alt="Acessórios internos"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/acessorios-internos-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/acessorios-internos-cinza.svg'">
+          </a>
+        </div>
+
+        <!--Acessórios Externos-->
+        <div class="col-2" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/acessorios-externos-cinza.svg" width="20" height="30"
+              class="d-inline-block align-top options" alt="Acessórios externos"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/acessorios-externos-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/acessorios-externos-cinza.svg'">
+          </a>
+        </div>
+
+        <!--Vestuários-->
+        <div class="col-2" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/vestuarios-cinza.svg" width="20" height="30"
+              class="d-inline-block align-top options" alt="Vestuários"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/vestuarios-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/vestuarios-cinza.svg'">
+          </a>
+        </div>
+
+        <!--Infantil-->
+        <div class="col-2" style="background-color: #141414; text-align: center;">
+          <a class="navbar-brand" href="#" style="font-size: 12px; padding-top: 10px;">
+            <img src="assets/icones_home/icones_categorias/infantil-cinza.svg" width="25" height="30"
+              class="d-inline-block align-top options" alt="Infantil"
+              onmouseover="this.src='./assets/icones_home/icones_categorias/infantil-vermelho.svg'"
+              onmouseout="this.src='./assets/icones_home/icones_categorias/infantil-cinza.svg'">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--Modal-->
+    <div class="d-none d-sm-block"style="background-color: #fff;">
+      <div id="carouselExampleSlidesOnly" class="carousel slide p-md-0" data-ride="carousel" style="background: black;">
+        <div class="carousel-inner banner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/banners/banner-principal-desk.jpg" alt="Primeiro Slide">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal Responsive-->
+    <div class="d-sm-none"style="background-color: #fff;">
+      <div id="carouselExampleSlidesOnly" class="carousel slide p-md-0" data-ride="carousel" style="background: black;">
+        <div class="carousel-inner banner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/banners/banner-principal-mobile.jpg" alt="Primeiro Slide">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Força de venda-->
+    <div class="container px-5" style="text-align: center;">
+
+      <table class="table table-bordered px-5 venda">
+        <thead>
+          <tr>
+            <td class="col col-sm-3">
+              <img src="assets/icones_home/icones_forca_de_venda/entrega.svg" width="30" height="30"
+                class="d-inline-block align-top forca-venda">
+              Entregamos para todo o país
+            </td>
+            <td class="col col-sm-3">
+              <img src="assets/icones_home/icones_forca_de_venda/parcelamento.svg" width="30" height="30"
+                class="d-inline-block align-top forca-venda">
+              Parcelamos no cartão
+            </td>
+            <td class="col col-sm-3">
+              <img src="assets/icones_home/icones_forca_de_venda/seguranca.svg" width="30" height="30"
+                class="d-inline-block align-top forca-venda">
+              Site seguro e confiável
+            </td>
+            <td class="col col-sm-3">
+              <img src="assets/icones_home/icones_forca_de_venda/troca.svg" width="30" height="30"
+                class="d-inline-block align-top forca-venda">
+              Primeira troca grátis
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+      </table>
+    </div>
+
+    <!--Cardes Anuncio-->
+    <div class="container px-5" style="text-align: center;">
       <div class="card-group">
-
         <div class="card">
-          <img src="assets/fotos_de_produtos/1000-faixa.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Auto Falante Promoção</h5>
-            <p class="card-text" style="font-size: 12px;">
-              Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
-            </p>
-            <b>
-              <p style="color: rgb(173, 23, 23); text-align: center;">R$ 68,90</p>
-            </b>
-          </div>
+          <img src="assets/banners/mini-banner-esq.jpg" class="card-img-top" alt="...">
         </div>
-
         <div class="card">
-          <img src="assets/fotos_de_produtos/1000.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Auto Falante</h5>
-            <p class="card-text" style="font-size: 12px;">
-              Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
-            </p>
-            <b>
-              <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
-            </b>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="assets/fotos_de_produtos/1000.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Auto Falante</h5>
-            <p class="card-text" style="font-size: 12px;">
-              Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
-            </p>
-            <b>
-              <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
-            </b>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="assets/fotos_de_produtos/1000.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Auto Falante</h5>
-            <p class="card-text" style="font-size: 12px;">
-              Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
-            </p>
-            <b>
-              <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
-            </b>
-          </div>
+          <img src="assets/banners/mini-banner-dir.jpg" class="card-img-top" alt="...">
         </div>
       </div>
     </div>
 
-    <!--Footer-->
-    <footer class="text-center text-white" style="background-color: #141414;">
-      <div class="container p-4">
-        <section class="">
+    <br>
+    <!--Mais vendidos-->
+    <div class="container-fluid p-md-0">
+      <div class="row">
+
+        <!--Borda-->
+        <div class="col-1 d-none d-sm-block " style="background-color: #eee;"></div>
+
+        <div class="col-2 d-none d-sm-block " style="background-color: #fff;">
+          <img class="enfeite" src="assets/icones_home/enfeite-mais-vendidos-esq.svg">
+        </div>
+
+        <!--Titulo - Mais vendidos-->
+        <div class="col-6 d-none d-sm-block " style="background-color: #fff;">
+          <h4 style="text-align: center; margin-top: 20px;">Mais Vendidos</h4>
+        </div>
+
+        <!--Borda 2-->
+        <div class="col-2 d-none d-sm-block " style="background-color: #fff;">
+          <img class="enfeite2" src="assets/icones_home/enfeite-mais-vendidos-dir.svg">
+        </div>
+        <div class="col-1 d-none d-sm-block " style="background-color: #eee;"></div>
+
+      </div>
+      <br>
+
+      <!--Mais vendidos responsive-->
+        <div class="container-fluid p-md-0">
           <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Institucional</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-white link-footer">Política de Venda</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Política de Privacidade</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Trocas e devoluções</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Entrega</a>
-                </li>
-              </ul>
+            <div class="col-12 d-sm-none" style="background-color: #fff;">
+              <h4 style="text-align: center; margin-top: 20px;">Mais Vendidos</h4>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Acesso rápido</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-white link-footer">Som e vídeo</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Faróis, lanterna e iluminação</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Acessórios internos</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Acessórios externos</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Vestuário</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Infantil</a>
-                </li>
-              </ul>
-            </div>
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Contato</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-white link-footer">contato@multiatak.com.br</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">(17)9914-0815</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">Rua Azevedo Rangel, 18 - Centro - Urupês-SP, CEP: 15850-000 </a>
-                </li>
-              </ul>
-            </div>
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Redes sociais</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#" class="text-white"> 
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>
-                </a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white link-footer">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
           </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-      </div>
-      <!-- Grid container -->
+        </div>
+      <!--Produtos-->
+      <div class="container px-5">
+        <div class="card-group">
 
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000-faixa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante Promoção</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 68,90</p>
+              </b>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
+              </b>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
+              </b>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
+              </b>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Copyright -->
-    </footer>
+
+      <!--Produtos-->
+      <div class="container container-fluid p-md-0" style="text-align: center;">
+        <h3>Mais Populares</h3>
+      </div>
+      <div class="container px-5">
+        <div class="card-group">
+
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000x508.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante Promoção</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 68,90</p>
+              </b>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000x508.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
+              </b>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000x508.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
+              </b>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/fotos_de_produtos/1000x508.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Auto Falante</h5>
+              <p class="card-text" style="font-size: 12px;">
+                Auto falante 6 polegadas 160W RMS triaxial 4 Ohms bobina simples shutt par potência 320W Máxima
+              </p>
+              <b>
+                <p style="color: rgb(173, 23, 23); text-align: center;">R$ 78,90</p>
+              </b>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer class="text-center text-white" style="background-color: #141414;">
+        <div class="container p-4">
+          <section class="">
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Institucional</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white link-footer">Política de Venda</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Política de Privacidade</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Trocas e devoluções</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Entrega</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Acesso rápido</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white link-footer">Som e vídeo</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Faróis, lanterna e iluminação</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Acessórios internos</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Acessórios externos</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Vestuário</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Infantil</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Contato</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white link-footer">contato@multiatak.com.br</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">(17)9914-0815</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">Rua Azevedo Rangel, 18 - Centro - Urupês-SP, CEP:
+                      15850-000 </a>
+                  </li>
+                </ul>
+              </div>
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Redes sociais</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#" class="text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white link-footer">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
 
 </body>
 
