@@ -1,4 +1,6 @@
 /*Menu-logo*/
+
+
 a{
     text-decoration: none;
 }
@@ -59,23 +61,27 @@ a .bt-lupa {
 .link:hover{
     color: honeydew;
 }
+.options{
+    margin-top: 10px;
+    margin-inline-start: 12px;
+}
 
 /*Carrinho - Menu 2*/
 .carrinho {
     width: 100%px;
-    height: 85px;
+    height: 92px;
     max-width: auto;
     max-height: auto;
-    margin-inline-start: 50px;
+    margin-inline-start: 40px;
 }
 /*Triangulo branco*/
 
 .tr-branco2 {
-    width: 85px;
-    height: 85px;
+    width: 92px;
+    height: 92px;
     max-width: auto;
     max-height: auto;
-    margin-inline-start: -95px;
+    margin-inline-start: -100px;
 }
 span{
     color:white;
@@ -88,4 +94,11 @@ span{
 .categorias:focus {
     outline: none;
     box-shadow: none !important;
+}
+.banner{
+    margin-left: 0;
+    margin-right: 0;
+}
+.venda{
+    box-shadow: 0 0 1em rgb(252, 234, 185);
 }
