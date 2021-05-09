@@ -1,9 +1,13 @@
 /*Menu-logo*/
+html, body {
+    margin: 0;
+    padding: 0;
+  }
 
-
-a{
+a {
     text-decoration: none;
 }
+
 .logo {
     width: 100%;
     height: 40px;
@@ -51,17 +55,20 @@ a .bt-lupa {
     text-decoration: none;
     margin-inline-start: 15px;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: honeydew;
     text-align: center;
     padding-top: 5px;
     margin-inline-start: 3px;
 }
-.link:hover{
+
+.link:hover {
     color: honeydew;
 }
-.options{
+
+.options {
     margin-top: 10px;
     margin-inline-start: 12px;
 }
@@ -72,8 +79,9 @@ a .bt-lupa {
     height: 92px;
     max-width: auto;
     max-height: auto;
-    margin-inline-start: 40px;
+    margin-inline-start: 35px;
 }
+
 /*Triangulo branco*/
 
 .tr-branco2 {
@@ -83,22 +91,48 @@ a .bt-lupa {
     max-height: auto;
     margin-inline-start: -100px;
 }
-span{
-    color:white;
+
+span {
+    color: white;
     text-align: justify;
 }
+
 .categorias {
     margin-top: 15px;
     margin-inline-start: -12px;
 }
+
 .categorias:focus {
     outline: none;
     box-shadow: none !important;
 }
-.banner{
+/*Banner*/
+.banner {
     margin-left: 0;
     margin-right: 0;
 }
-.venda{
+
+.venda {
     box-shadow: 0 0 1em rgb(252, 234, 185);
+}
+
+/*Faixa de Produtos*/
+.enfeite {
+    width: 100%;
+    height: 90px;
+    max-width: auto;
+    max-height: auto;
+    margin-inline-start: 45px;
+}
+
+.enfeite2 {
+    width: 100%;
+    height: 90px;
+    max-width: auto;
+    max-height: auto;
+    margin-inline-start: -45px;
+}
+/*Footer*/
+.link-footer{
+    text-decoration: none;
 }
