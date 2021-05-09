@@ -5,7 +5,7 @@ Este Projeto foi desenvolvido apenas com HTML5, CSS e Bootstrap.
 
 Para Executar este projeto será necessário apenas seguir os passos a seguir:
 
-1- Baixe a pasta compactada deste repositório.
+1- Baixe a pasta compactada deste repositório e extraia em seu computador.
 
 2- Abra a pasta em um editor de códigos de sua preferência.
 
